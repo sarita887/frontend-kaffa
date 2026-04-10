@@ -1,14 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/index";   // ojo: si tu archivo está en minúscula
+import Home from "./pages/home";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-export default App;

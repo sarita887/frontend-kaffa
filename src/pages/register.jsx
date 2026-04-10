@@ -1,12 +1,12 @@
 import navbar from "../components/navbar";
-import loginForm from "../components/loginForm";
+import registerForm from "../components/registerForm";
 import footer from "../components/footer";
 
-export default function Login() {
+export default function Register() {
   return (
     <>
       <Navbar />
-      <LoginForm />
+      <RegisterForm />
       <Footer />
     </>
   );

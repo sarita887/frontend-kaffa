@@ -1,12 +1,12 @@
 import navbar from "../components/navbar";
-import loginForm from "../components/loginForm";
+import inventoryInfo from "../components/inventoryInfo";
 import footer from "../components/footer";
 
-export default function Login() {
+export default function Inventory() {
   return (
     <>
       <Navbar />
-      <LoginForm />
+      <InventoryInfo />
       <Footer />
     </>
   );
